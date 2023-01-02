@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/u84y99bpr1ld88m7?svg=true)](https://ci.appveyor.com/project/yoma4100/a2t3)
+[![Build status](https://ci.appveyor.com/api/projects/status/73cnnc5mgsr6qs5p/branch/main?svg=true)](https://ci.appveyor.com/project/yoma4100/a2t3/branch/main)
