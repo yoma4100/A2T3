@@ -15,7 +15,7 @@ public class PostmanEchoResponseTest {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(200)
+                .statusCode(300)
         ;
     }
 
@@ -27,7 +27,7 @@ public class PostmanEchoResponseTest {
                 .when()
                 .post("/post")
                 .then()
-                .body("data", equalTo("some data"))
+                .body("data", equalTo("somedata"))
         ;
     }
 
@@ -39,7 +39,7 @@ public class PostmanEchoResponseTest {
                 .when()
                 .get("/post")
                 .then()
-                .statusCode(404)
+                .statusCode(200)
         ;
     }
 }
